@@ -1,0 +1,12 @@
+
+{
+    "duplicateCustomer": {
+        "name": "Archana QA Test",
+        "phone": "5734345566",
+        "email": "a1@mailinator.com"
+    },
+    "login": {
+        "phone": "6664446664",
+        "otp": "123456"
+    }
+}

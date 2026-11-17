@@ -1,0 +1,30 @@
+
+BUG ID: BUG-01
+BUG TITLE: Signature Missing in Downloaded Agreement PDF
+
+MODULE: Agreement / Document Signing
+SEVERITY: High
+
+EXPECTED RESULT:
+The signature placed on the agreement should appear
+in the document preview and downloaded PDF.
+
+ACTUAL RESULT:
+The signature persistence issue was reported during
+manual verification. The downloaded PDF is saved as
+evidence for further investigation.
+
+STATUS:
+Manual observation recorded.
+Automated signature-content verification is not yet implemented.
+
+EVIDENCE:
+- evidence/BUG-01-preview-document.png
+- evidence/preview-document.html
+- evidence/preview-document-details.json
+- evidence/downloaded-agreement.pdf
+
+NOTE:
+The current automated PDF checks confirm file existence,
+non-zero size and PDF header only. They do not verify
+whether the signature is present in the PDF.
